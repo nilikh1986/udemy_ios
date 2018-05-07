@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="relayIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Ybz-Ht-cbC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pug-ZR-atb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4x5-7M-TFy">
+                                        <rect key="frame" x="319" y="7" width="48" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="2cN-2n-nYe"/>
+                                            <constraint firstAttribute="height" constant="30" id="SrA-pH-FCD"/>
+                                        </constraints>
+                                        <state key="normal" title="Done"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPa-ya-lkV">
+                                        <rect key="frame" x="8" y="7" width="48" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="Twh-zL-RYE"/>
+                                            <constraint firstAttribute="height" constant="30" id="uVH-OZ-v3y"/>
+                                        </constraints>
+                                        <state key="normal" title="Cancel"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="xPa-ya-lkV" firstAttribute="centerY" secondItem="Pug-ZR-atb" secondAttribute="centerY" id="CYg-lk-5Y4"/>
+                                    <constraint firstItem="xPa-ya-lkV" firstAttribute="leading" secondItem="Pug-ZR-atb" secondAttribute="leading" constant="8" id="N5i-z2-bRq"/>
+                                    <constraint firstAttribute="height" constant="44" id="URF-4M-Bfc"/>
+                                    <constraint firstItem="4x5-7M-TFy" firstAttribute="centerY" secondItem="Pug-ZR-atb" secondAttribute="centerY" id="V1k-dc-Kxy"/>
+                                    <constraint firstAttribute="trailing" secondItem="4x5-7M-TFy" secondAttribute="trailing" constant="8" id="WYy-vV-ZMx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pug-ZR-atb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="F6V-Rw-hCE"/>
+                            <constraint firstItem="Pug-ZR-atb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HW4-T7-7UP"/>
+                            <constraint firstItem="Pug-ZR-atb" firstAttribute="bottom" secondItem="Ybz-Ht-cbC" secondAttribute="bottom" id="LFs-5f-yTg"/>
+                            <constraint firstItem="Ybz-Ht-cbC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Oz9-EN-S55"/>
+                            <constraint firstItem="Ybz-Ht-cbC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Q1y-kg-Yt5"/>
+                            <constraint firstAttribute="trailing" secondItem="Ybz-Ht-cbC" secondAttribute="trailing" id="Xb0-Dg-wuC"/>
+                            <constraint firstItem="Pug-ZR-atb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="swh-zl-uSB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="relayIcon" width="143" height="57"/>
+    </resources>
+</document>
