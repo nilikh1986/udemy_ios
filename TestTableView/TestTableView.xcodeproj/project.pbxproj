@@ -15,6 +15,7 @@
 		B34BAA4C1FA7B148004A4622 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BAA4B1FA7B148004A4622 /* MyCustomCell.swift */; };
 		B34BAA4E1FA7B4D6004A4622 /* NibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34BAA4D1FA7B4D6004A4622 /* NibCell.swift */; };
 		B34BAA501FA7B51C004A4622 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B34BAA4F1FA7B51C004A4622 /* NibCell.xib */; };
+		B3CEAFB420A0E6D300A00FC8 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CEAFB320A0E6D300A00FC8 /* SectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B34BAA4B1FA7B148004A4622 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		B34BAA4D1FA7B4D6004A4622 /* NibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibCell.swift; sourceTree = "<group>"; };
 		B34BAA4F1FA7B51C004A4622 /* NibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibCell.xib; sourceTree = "<group>"; };
+		B3CEAFB320A0E6D300A00FC8 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B34BAA371FA79D6A004A4622 /* AppDelegate.swift */,
+				B3CEAFB320A0E6D300A00FC8 /* SectionTableViewController.swift */,
 				B34BAA391FA79D6A004A4622 /* ViewController.swift */,
 				B34BAA4B1FA7B148004A4622 /* MyCustomCell.swift */,
 				B34BAA4D1FA7B4D6004A4622 /* NibCell.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CEAFB420A0E6D300A00FC8 /* SectionTableViewController.swift in Sources */,
 				B34BAA4C1FA7B148004A4622 /* MyCustomCell.swift in Sources */,
 				B34BAA4E1FA7B4D6004A4622 /* NibCell.swift in Sources */,
 				B34BAA3A1FA79D6A004A4622 /* ViewController.swift in Sources */,
